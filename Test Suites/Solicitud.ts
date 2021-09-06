@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Solicitud</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>21767421-afc1-44db-8809-5174b8c2f138</testSuiteGuid>
+   <testCaseLink>
+      <guid>a3cc94ed-8496-4536-af85-794ecfe67710</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Crear Solicitud</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d29b0e4b-5c10-427c-ab34-0d333eba8330</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ca4c5c3-94dc-478e-b37f-4ba2eb286743</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>89c034c6-6359-4ca0-8de4-42481c7a0d52</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e5a612d-8839-4796-a517-8403817d1e0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Aprobar Solicitud Bancoldex</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

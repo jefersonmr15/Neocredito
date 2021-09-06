@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://172.31.10.14:8080/ngneocredito/#/home'</initValue>
+      <name>home</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['http://172.31.10.14:8080/ngneocredito/#/bancoldex/login', 'http://172.31.10.14:8080/ngneocredito/#/intermediario/login', 'http://172.31.10.14:8080/ngneocredito/#/microempresario/login']</initValue>
+      <name>login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://172.31.10.14:8080/'</initValue>
+      <name>ip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['5', 'blabla', 'Mi123123@']</initValue>
+      <name>userCliente</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Solicitud</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
