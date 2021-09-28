@@ -6,7 +6,7 @@
    <UUID>99848834-46eb-48e7-99b4-03755b16fbec</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Jefferson\Katalon Studio\Neocredito\Neocredito.prj</projectFileLocation>
+   <projectFileLocation>..\Neocredito\Neocredito.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
