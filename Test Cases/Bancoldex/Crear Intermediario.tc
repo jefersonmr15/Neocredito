@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crear Intermediario</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8639662-226b-4683-9388-9f4e4f507ea2</testCaseGuid>
+   <variable>
+      <defaultValue>'Bancoldex/CrearIntermediario'</defaultValue>
+      <description></description>
+      <id>2c723f1f-64d2-46f6-b292-a8eea17b49de</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>['Nit', 'Primer Nombre', 'Segundo Nombre', 'Primer Apellido', 'Segundo Apellido', 'Tipo Documento', 'Numero Documento', 'Cargo', 'Correo Electronico', 'Numero Celular']</defaultValue>
+      <description></description>
+      <id>c4364692-2431-4f56-95ca-a25e8dd9bfd3</id>
+      <masked>false</masked>
+      <name>campo</name>
+   </variable>
+</TestCaseEntity>

@@ -21,12 +21,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['5', 'blabla', 'Mi123123@']</initValue>
+      <initValue>['2', '818181', 'Mi123123@']</initValue>
       <name>userCliente</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'20210000301'</initValue>
       <name>Solicitud</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['PEP0000', 'Bogota*6060']</initValue>
+      <name>userBancoldex</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['172.31.10.13', '1521', 'DBBE', 'NEO', 'n30s3gur1d4d','oracle.jdbc.OracleDriver']</initValue>
+      <name>ConexionDB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Señor Empresario, antes de dar inicio al diligenciamiento, recuerde que debe contar con la siguiente documentación: Cédula, Flujo de Caja.']</initValue>
+      <name>Mensaje</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['2', '959595', 'Mi123123@']</initValue>
+      <name>userIntermediario</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

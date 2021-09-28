@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crear Solicitud</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67b7213b-b2a4-4bb7-89d5-88d81a919ea8</testCaseGuid>
+   <variable>
+      <defaultValue>'microempresario'</defaultValue>
+      <description></description>
+      <id>d29b0e4b-5c10-427c-ab34-0d333eba8330</id>
+      <masked>false</masked>
+      <name>Cliente</name>
+   </variable>
+   <variable>
+      <defaultValue>'intermediario'</defaultValue>
+      <description></description>
+      <id>6ca4c5c3-94dc-478e-b37f-4ba2eb286743</id>
+      <masked>false</masked>
+      <name>Intermediario</name>
+   </variable>
+   <variable>
+      <defaultValue>'bancoldex'</defaultValue>
+      <description></description>
+      <id>89c034c6-6359-4ca0-8de4-42481c7a0d52</id>
+      <masked>false</masked>
+      <name>Bancoldex</name>
+   </variable>
+   <variable>
+      <defaultValue>['Fecha Expedicion','Fecha Nacimiento','Departamento Residencia','Ciudad Residencia','Direccion','Estado Civil','Seguridad Social','Nivel Estudio','Tipo Vivienda','Ano Activos','Nivel Activos','Personas Cargo','Monto Credito','Plazo','Destino Dinero'
+]</defaultValue>
+      <description></description>
+      <id>b2b6501b-78ed-4f5d-a4b5-45ccd4d549b9</id>
+      <masked>false</masked>
+      <name>campo</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>f5b15c88-2e29-4e28-a7bc-d778dfe5592f</id>
+      <masked>false</masked>
+      <name>fila</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cliente/CrearSolicitud'</defaultValue>
+      <description></description>
+      <id>69a5ff6d-9add-4637-96b9-dd0e6751accc</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+</TestCaseEntity>

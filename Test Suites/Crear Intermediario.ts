@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Crear Intermediario</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>6ca08771-d22d-4d54-9e5b-76222de3a7a0</testSuiteGuid>
+   <testCaseLink>
+      <guid>817f48a8-3b70-46d8-9800-1c10354128d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bancoldex/Crear Intermediario</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2c723f1f-64d2-46f6-b292-a8eea17b49de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4364692-2431-4f56-95ca-a25e8dd9bfd3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6615b275-d025-4c99-96cd-b18eed8e95a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Intermediario/Crear Usuario Intermediario</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2c723f1f-64d2-46f6-b292-a8eea17b49de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4364692-2431-4f56-95ca-a25e8dd9bfd3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

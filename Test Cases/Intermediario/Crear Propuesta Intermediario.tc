@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crear Propuesta Intermediario</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11057fe8-9422-4dbd-91a5-c6ea29094420</testCaseGuid>
+   <variable>
+      <defaultValue>'Intermediario/CrearPropuesta'</defaultValue>
+      <description></description>
+      <id>59de38ea-e9a7-4f98-b604-2c992a185836</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+</TestCaseEntity>

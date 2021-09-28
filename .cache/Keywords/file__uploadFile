@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "EA824493A56215FB2F18CBFF24CDFDA7",
+  "keywordClasses": [
+    {
+      "name": "file.uploadFile",
+      "keywordMethods": [
+        {
+          "name": "upload",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crear Microempresario Persona Juridica</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fca56db-39ec-466b-aba5-63ac2994fe9c</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4ea833a7-a843-4c01-9715-b9fb5b22610c</id>
+      <masked>false</masked>
+      <name>fila</name>
+   </variable>
+   <variable>
+      <defaultValue>['Razon Social','NIT','DV','Ano Ventas','Nivel Ventas','Actividad Economica','Persona Contacto','Primer Nombre','Segundo Nombre','Primer Apellido','Segundo Apellido','Tipo Documento','Numero Documento','Genero','Numero Celular','Correo Electronico','Contraseña'
+]</defaultValue>
+      <description></description>
+      <id>c4364692-2431-4f56-95ca-a25e8dd9bfd3</id>
+      <masked>false</masked>
+      <name>campo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cliente/CrearPersonaJuridica'</defaultValue>
+      <description></description>
+      <id>3d940bdd-d580-4aee-a8fc-c6a7156c8769</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+</TestCaseEntity>

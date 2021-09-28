@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crear Microempresario Persona Natural</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df0b770e-8e51-4bc5-bf8d-ca683052296e</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4ea833a7-a843-4c01-9715-b9fb5b22610c</id>
+      <masked>false</masked>
+      <name>fila</name>
+   </variable>
+   <variable>
+      <defaultValue>['Primer Nombre', 'Segundo Nombre', 'Primer Apellido', 'Segundo Apellido', 'Genero', 'Tipo Documento', 'Numero Documento', 'Numero Celular', 'Actividad Economica', 'Ano Ventas', 'Nivel Ventas', 'Correo Electronico', 'Contraseña']</defaultValue>
+      <description></description>
+      <id>c4364692-2431-4f56-95ca-a25e8dd9bfd3</id>
+      <masked>false</masked>
+      <name>campo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cliente/CrearPersonaNatural'</defaultValue>
+      <description></description>
+      <id>f70a2ffb-d0f2-40bf-a454-04268249eb25</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+</TestCaseEntity>
