@@ -80,11 +80,20 @@ WebUI.scrollToElement(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarCo
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-// ((driver) as JavascriptExecutor).executeScript('arguments[0].click = true;', radioBtn2)
-//WebUI.delay(1)
-//   ((driver) as JavascriptExecutor).executeScript('arguments[0].checked = true;', radioBtn3)
-//WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarContrasenaInput'), Keys.chord(Keys.TAB))
-//WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/DatosPersonalesRadio'), Keys.chord(Keys.SPACE))
+WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarContrasenaInput'), Keys.chord(Keys.TAB))
+
+Robot robot = new Robot()
+
+robot.keyPress(KeyEvent.VK_DOWN)
+
+robot.keyPress(KeyEvent.VK_DOWN)
+
+robot.keyPress(KeyEvent.VK_DOWN)
+
+WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarContrasenaInput'), Keys.chord(Keys.TAB))
+
+WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/DatosPersonalesRadio'), Keys.chord(Keys.SPACE))
+
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/FinalizarRegistroButton'))
 
 WebUI.waitForElementVisible(findTestObject('Cliente/RegistroPersonaNatural/CodigoCorreoInput'), 0)
