@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "EA824493A56215FB2F18CBFF24CDFDA7",
+  "keywordFileContentHash": "F3BAB6273BFC05D7DB30438700A9BE5A",
   "keywordClasses": [
     {
       "name": "file.uploadFile",
@@ -20,11 +20,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

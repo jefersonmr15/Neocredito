@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WS.sendRequest(findTestObject('Cliente/Seleccionar Oferta/FinalizarPropuestaService', [('solicitud') : GlobalVariable.Solicitud]))
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/home')
@@ -45,4 +47,8 @@ WebUI.click(findTestObject('Cliente/Seleccionar Oferta/OfertasButton', [('text')
 WebUI.click(findTestObject('Object Repository/Cliente/Seleccionar Oferta/OfertaRadio'))
 
 WebUI.click(findTestObject('Object Repository/Cliente/Seleccionar Oferta/SeleccionarOfertaButton'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.delay(5)
 

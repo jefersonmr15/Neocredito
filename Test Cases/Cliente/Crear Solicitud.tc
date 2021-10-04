@@ -27,8 +27,7 @@
       <name>Bancoldex</name>
    </variable>
    <variable>
-      <defaultValue>['Fecha Expedicion','Fecha Nacimiento','Departamento Residencia','Ciudad Residencia','Direccion','Estado Civil','Seguridad Social','Nivel Estudio','Tipo Vivienda','Ano Activos','Nivel Activos','Personas Cargo','Monto Credito','Plazo','Destino Dinero'
-]</defaultValue>
+      <defaultValue>['Fecha Expedicion', 'Fecha Nacimiento', 'Departamento Residencia', 'Ciudad Residencia', 'Direccion', 'Estado Civil', 'Seguridad Social', 'Nivel Estudio', 'Tipo Vivienda', 'Ano Activos', 'Nivel Activos', 'Monto Credito', 'Personas Cargo', 'Plazo', 'Destino Dinero']</defaultValue>
       <description></description>
       <id>b2b6501b-78ed-4f5d-a4b5-45ccd4d549b9</id>
       <masked>false</masked>

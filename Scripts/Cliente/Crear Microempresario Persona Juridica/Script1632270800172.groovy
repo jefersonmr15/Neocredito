@@ -111,9 +111,14 @@ WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/FinalizarRegistroButt
 
 WebUI.waitForElementVisible(findTestObject('Cliente/RegistroPersonaNatural/CodigoCorreoInput'), 0)
 
-WebUI.executeJavaScript('window.open();', [])
-
 def currentWindow = WebUI.getWindowIndex()
+
+robot.keyPress(KeyEvent.VK_CONTROL)
+robot.keyPress(KeyEvent.VK_T)
+robot.keyRelease(KeyEvent.VK_CONTROL)
+robot.keyRelease(KeyEvent.VK_T)
+
+//WebUI.executeJavaScript('window.open();', [])
 
 WebUI.switchToWindowIndex(currentWindow + 1)
 
@@ -124,8 +129,7 @@ WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/CorreoYopmailInput'
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/CrearCorreoButton'))
 
-WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/PrimerCorreoLabel'))
-
+//WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/PrimerCorreoLabel'))
 Code = WebUI.getAttribute(findTestObject('Cliente/RegistroPersonaNatural/CodigoCorreoLabel'), 'innerText')
 
 WebUI.switchToWindowIndex(currentWindow)

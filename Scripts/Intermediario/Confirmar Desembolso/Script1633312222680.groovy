@@ -19,29 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/bancoldex/login')
+WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/intermediario/login')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Bancoldex/Aprobar Solicitud/UsuarioInput'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/TipoDocumentoSelect'), GlobalVariable.userIntermediario[
+    0], true)
 
-WebUI.setText(findTestObject('Bancoldex/Aprobar Solicitud/UsuarioInput'), GlobalVariable.userBancoldex[0])
+WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/NumerodocumentoInput'), GlobalVariable.userIntermediario[1])
 
-WebUI.setText(findTestObject('Bancoldex/Aprobar Solicitud/ContrasenaInput'), GlobalVariable.userBancoldex[1])
+WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/ContrasenaInput'), GlobalVariable.userIntermediario[2])
 
-WebUI.click(findTestObject('Bancoldex/Aprobar Solicitud/LoginBoton'))
+WebUI.click(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/IniciarSesionFormularioButton'))
 
-WebUI.setText(findTestObject('Bancoldex/Aprobar Solicitud/NoSolicitudInput'), GlobalVariable.Solicitud)
+WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/SolicitudInput'), GlobalVariable.Solicitud)
 
-WebUI.click(findTestObject('Bancoldex/Aprobar Solicitud/FiltrarBoton'))
+WebUI.click(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/FiltrarButton'))
 
-WebUI.click(findTestObject('Bancoldex/Aprobar Solicitud/AprobarSolicitudBoton', [('text') : GlobalVariable.Solicitud]))
+WebUI.click(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/AprobarButton'))
 
-WebUI.click(findTestObject('Bancoldex/Aprobar Solicitud/AprobarBoton'))
+WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/ModalObservacionInput'), 'PruebaAutomatizada')
+
+WebUI.click(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/ConfirmarDesembolsoButton'))
 
 WebUI.waitForPageLoad(0)
 
 WebUI.delay(10)
-
-WebUI.closeBrowser()
 

@@ -21,17 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/home')
 
-WebUI.click(findTestObject('Object Repository/Intermediario/AprobarOferta/IniciarSesionButton'))
+WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Intermediario/AprobarOferta/IniciarSesionButton'))
 
 WebUI.click(findTestObject('Object Repository/Intermediario/AprobarOferta/AliadoFinancieroLink'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Intermediario/AprobarOferta/TipoDocumentoInput'), GlobalVariable.userIntermediario[0], true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Intermediario/AprobarOferta/TipoDocumentoInput'), GlobalVariable.userIntermediario[
+    0], true)
 
-WebUI.setText(findTestObject('Object Repository/Intermediario/AprobarOferta/NumerodocumentoInput'), GlobalVariable.userIntermediario[1])
+WebUI.setText(findTestObject('Object Repository/Intermediario/AprobarOferta/NumerodocumentoInput'), GlobalVariable.userIntermediario[
+    1])
 
-WebUI.setText(findTestObject('Object Repository/Intermediario/AprobarOferta/ContrasenaInput'), GlobalVariable.userIntermediario[2])
+WebUI.setText(findTestObject('Object Repository/Intermediario/AprobarOferta/ContrasenaInput'), GlobalVariable.userIntermediario[
+    2])
 
-WebUI.click(findTestObject('Object Repository/Intermediario/AprobarOferta/IniciarSesionButton'))
+WebUI.click(findTestObject('Intermediario/AprobarOferta/IniciarSesionFormularioButton'))
 
 WebUI.setText(findTestObject('Object Repository/Intermediario/AprobarOferta/SolicitudInput'), GlobalVariable.Solicitud)
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NoSolicitudLabel</name>
+   <name>CuerpoCorreoLabel</name>
    <tag></tag>
-   <elementGuidId>734ea832-d682-4e83-a4c8-e418901f7981</elementGuidId>
+   <elementGuidId>60054df5-9173-4937-a89d-fedf319506a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='container mt-5']//strong</value>
+         <value>//*[@id='ifmail']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='container mt-5']//strong</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>label</value>
+      <value>//*[@id='ifmail']</value>
    </webElementProperties>
 </WebElementEntity>

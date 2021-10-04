@@ -6,6 +6,10 @@
    <elementGuidId>73d43a67-139a-4711-80d4-607beacd432f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>(//*[@class='bodyinbox yscrollbar']//button)[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class='mctn']/div[2]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>button.lm</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <value>g(this);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -51,11 +55,18 @@
                         </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;e_ZwRjBGVkZQR0AGR5ZQNjZQDlZQV5Zj==&quot;)/button[@class=&quot;lm&quot;]</value>
+      <value>(//*[@class='bodyinbox yscrollbar']//button)[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Cliente/RegistroPersonaNatural/CuerpoCorreoLabel</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

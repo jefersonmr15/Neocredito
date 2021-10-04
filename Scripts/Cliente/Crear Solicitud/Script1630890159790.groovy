@@ -46,6 +46,8 @@ WebUI.setText(findTestObject('Cliente/Crear Solicitud/ContrasenaInput'), GlobalV
 WebUI.click(findTestObject('Cliente/Crear Solicitud/LoginButton'))
 
 for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
+    WebUI.delay(1)
+
     WebUI.click(findTestObject('Cliente/Crear Solicitud/CrearSolicitudButton'))
 
     WebUI.verifyElementText(findTestObject('Cliente/Crear Solicitud/MensajeHeader'), GlobalVariable.Mensaje[0])
@@ -105,12 +107,22 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     'Botón siguiente'
     WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 3]))
 
-    for (def count = 1; count <= 4; count++) {
+    for (def count = 1; count <= 9; count++) {
         WebUI.click(findTestObject('Cliente/Crear Solicitud/SubirArchivoButton', [('index') : count]))
 
-        CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Archivo.pdf')
+        switch (count) 
+		{
+			case 5:
+				CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Datos.xlsx')
+			break
+			case 6:
+				CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+			break	
+				default:CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Archivo.pdf')
+			break		
+        }
 
-        WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+        WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
     }
     
     'Botón Crear solicitud'
@@ -121,7 +133,5 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     WebUI.click(findTestObject('Cliente/Crear Solicitud/FinalizarButton'))
 }
 
-row = sql.firstRow('SELECT * FROM neo_solicitud_intermediario where id_solicitud=' + GlobalVariable.Solicitud)
-
-WebUI.comment('' + row)
+//row = sql.firstRow('SELECT * FROM neo_solicitud_intermediario where id_solicitud=' + GlobalVariable.Solicitud)
 

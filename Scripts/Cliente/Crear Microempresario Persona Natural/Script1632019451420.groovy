@@ -110,7 +110,7 @@ WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/CorreoYopmailInput'
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/CrearCorreoButton'))
 
-WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/PrimerCorreoLabel'))
+//WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/PrimerCorreoLabel'))
 
 Code = WebUI.getAttribute(findTestObject('Cliente/RegistroPersonaNatural/CodigoCorreoLabel'), 'innerText')
 

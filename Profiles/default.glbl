@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'20210000301'</initValue>
+      <initValue>'20210000612'</initValue>
       <name>Solicitud</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['Señor Empresario, antes de dar inicio al diligenciamiento, recuerde que debe contar con la siguiente documentación: Cédula, Flujo de Caja.']</initValue>
+      <initValue>['Señor Empresario, antes de dar inicio al diligenciamiento, recuerde que debe contar con la siguiente documentación:']</initValue>
       <name>Mensaje</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

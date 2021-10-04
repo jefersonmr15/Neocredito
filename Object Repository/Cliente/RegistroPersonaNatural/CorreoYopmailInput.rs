@@ -6,6 +6,10 @@
    <elementGuidId>c44a95d5-a4ce-431b-83c8-5ea9a53e0610</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Ingrese una dirección aquí' and @type = 'text' and @id = 'login' and @name = 'login' and @title = 'Login']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='login']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#login</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

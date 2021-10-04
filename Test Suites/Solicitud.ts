@@ -83,4 +83,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Cliente/Seleccionar Propuesta Microempresario</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>31934ffc-7d93-42f7-997e-3c3f341ea207</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Intermediario/Confirmar Desembolso</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
