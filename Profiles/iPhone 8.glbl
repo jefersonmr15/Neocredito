@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>iPhone 8</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://172.31.10.14:8080/ngneocredito/#/home'</initValue>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>X - Y</description>
-      <initValue>[1920, 1080]</initValue>
+      <initValue>[375, 667]</initValue>
       <name>resolution</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

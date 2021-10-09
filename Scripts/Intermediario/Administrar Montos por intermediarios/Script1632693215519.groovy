@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/intermediario/login')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.selectOptionByValue(findTestObject('Intermediario/Administracion de Montos/TipoDocumentoSelect'), GlobalVariable.userIntermediario[
     0], true)

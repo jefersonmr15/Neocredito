@@ -10,6 +10,10 @@
          <value>//a[@id='dropdown03']/div</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>(//*[@id='dropdown03'])[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#dropdown03 > div</value>
       </entry>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dropdown03&quot;)/div[1]</value>
+      <value>(//*[@id='dropdown03'])[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

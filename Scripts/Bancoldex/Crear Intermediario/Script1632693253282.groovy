@@ -37,7 +37,7 @@ if (nit != null) {
 
 WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/bancoldex/login')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.setText(findTestObject('Bancoldex/Crear Intermediario/UsuarioLoginInput'), GlobalVariable.userBancoldex[0])
 

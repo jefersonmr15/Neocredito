@@ -23,12 +23,15 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.event.KeyEvent as KeyEvent
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.home)
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/RegistrateButton'))
 

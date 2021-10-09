@@ -10,6 +10,10 @@
          <value>//a[@id='profile-tab']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'profile-tab']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#profile-tab</value>
       </entry>
@@ -33,58 +37,9 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>tab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#profile</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>tab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>profile</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav-link</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Información general del beneficiario </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;profile-tab&quot;)</value>
+      <value>//*[@class='mr-auto']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

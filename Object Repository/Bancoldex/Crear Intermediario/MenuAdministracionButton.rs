@@ -10,6 +10,10 @@
          <value>//a[@id='dropdown03']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>(//*[@id='dropdown03'])[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#dropdown03</value>
       </entry>
@@ -24,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -59,18 +63,18 @@
       <value>nav-link dropdown-toggle</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>ADMINISTRACION</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-pagina-principal[@class=&quot;ng-star-inserted&quot;]/navbar-bancoldex[1]/nav[@class=&quot;navbar navbar-expand-lg fixed-top navbar-light bg-light navbar-offcanvas&quot;]/div[@class=&quot;navbar-collapse offcanvas-collapse open&quot;]/div[@class=&quot;d-flex flex-column mt-3&quot;]/ul[@class=&quot;navbar-nav mr-auto mt-5&quot;]/li[@class=&quot;nav-item dropdown container-fluid ng-star-inserted&quot;]/a[@id=&quot;dropdown03&quot;]</value>
+      <value>(//*[@id='dropdown03'])[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

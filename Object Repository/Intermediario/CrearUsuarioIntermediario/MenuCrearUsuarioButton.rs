@@ -10,8 +10,11 @@
          <value>//a[contains(text(),'Crear Usuario')]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>(//*[@aria-labelledby='dropdown03']/a)[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,25 +34,25 @@
       <value>dropdown-item hvr-forward ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#/intermediario/administracion/crearUsuarioIF</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Crear Usuario </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/layout-intermediario[@class=&quot;ng-star-inserted&quot;]/app-intermediario-header[1]/nav[@class=&quot;navbar navbar-expand-lg fixed-top navbar-light bg-light navbar-offcanvas&quot;]/div[@class=&quot;navbar-collapse offcanvas-collapse open&quot;]/div[@class=&quot;d-flex flex-column mt-3&quot;]/ul[@class=&quot;navbar-nav mr-auto mt-5&quot;]/li[@class=&quot;nav-item dropdown container-fluid ng-star-inserted show&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[@class=&quot;dropdown-item hvr-forward ng-star-inserted&quot;]</value>
+      <value>(//*[@aria-labelledby='dropdown03']/a)[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

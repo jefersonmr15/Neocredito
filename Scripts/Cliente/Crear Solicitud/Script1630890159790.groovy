@@ -26,11 +26,11 @@ sql = Sql.newInstance((((('jdbc:oracle:thin:@' + (GlobalVariable.ConexionDB[0]))
     ':') + (GlobalVariable.ConexionDB[2]), GlobalVariable.ConexionDB[3], GlobalVariable.ConexionDB[4], GlobalVariable.ConexionDB[
     5])
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.home)
 
 WebUI.navigateToUrl(GlobalVariable.home)
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.click(findTestObject('Cliente/Crear Solicitud/IniciarSesionButton'))
 
@@ -110,18 +110,21 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     for (def count = 1; count <= 9; count++) {
         WebUI.click(findTestObject('Cliente/Crear Solicitud/SubirArchivoButton', [('index') : count]))
 
-        switch (count) 
-		{
-			case 5:
-				CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Datos.xlsx')
-			break
-			case 6:
-				CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
-			break	
-				default:CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Archivo.pdf')
-			break		
-        }
+        switch (count) {
+            case 5:
+                CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Datos.xlsx')
 
+                break
+            case 6:
+                CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+
+                break
+            default:
+                CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Archivo.pdf')
+
+                break
+        }
+        
         WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
     }
     
@@ -132,6 +135,4 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
 
     WebUI.click(findTestObject('Cliente/Crear Solicitud/FinalizarButton'))
 }
-
-//row = sql.firstRow('SELECT * FROM neo_solicitud_intermediario where id_solicitud=' + GlobalVariable.Solicitud)
 

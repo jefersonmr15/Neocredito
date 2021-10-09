@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'hr bg-green ng-star-inserted']</value>
+         <value>//*[@class = 'hr bg-warning ng-star-inserted']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>hr bg-green ng-star-inserted</value>
+      <value>hr bg-warning ng-star-inserted</value>
    </webElementProperties>
 </WebElementEntity>

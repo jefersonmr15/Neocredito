@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/bancoldex/login')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.click(findTestObject('Bancoldex/Aprobar Solicitud/UsuarioInput'))
 

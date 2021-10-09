@@ -30,7 +30,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.home)
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/RegistrateButton'))
 
