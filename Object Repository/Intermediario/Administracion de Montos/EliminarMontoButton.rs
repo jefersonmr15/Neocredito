@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//td[contains(text(),'20,000,001')]/..//i)[2]</value>
+         <value>(//*[@id='btn-borrar'])[${index}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//td[contains(text(),'20,000,001')]/..//i)[2]</value>
+      <value>(//*[@id='btn-borrar'])[${index}]</value>
    </webElementProperties>
 </WebElementEntity>

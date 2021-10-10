@@ -16,8 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('')
+
+WebDriver driver = DriverFactory.getWebDriver()
 
 WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/intermediario/login')
 
@@ -40,23 +46,27 @@ WebUI.click(findTestObject('Intermediario/Administracion de Montos/MenuAdministr
 
 WebUI.click(findTestObject('Intermediario/Administracion de Montos/MenuAdministrarMontosButton'))
 
-WebUI.setText(findTestObject('Object Repository/Intermediario/Administracion de Montos/MontoInicialInput'), '20,000,000')
+WebUI.setText(findTestObject('Object Repository/Intermediario/Administracion de Montos/MontoInicialInput'), valorInicial)
 
-WebUI.setText(findTestObject('Intermediario/Administracion de Montos/MontoFinalInput'), '3,000,0000')
+WebUI.setText(findTestObject('Intermediario/Administracion de Montos/MontoFinalInput'), ValorFinal)
+
+List<WebElement> object = driver.findElements(By.xpath('//tr[@class="ng-star-inserted"]'))
+
+def count = object.size() + 1
 
 WebUI.click(findTestObject('Intermediario/Administracion de Montos/AgregarRangoButton'))
 
-WebUI.click(findTestObject('Intermediario/Administracion de Montos/EditarMontoButton'))
+WebUI.click(findTestObject('Intermediario/Administracion de Montos/EditarMontoButton', [('index') : count]))
 
-WebUI.setText(findTestObject('Intermediario/Administracion de Montos/ModalMontoInicialInput'), '20,000,001')
+WebUI.setText(findTestObject('Intermediario/Administracion de Montos/ModalMontoInicialInput'), valorInicialModificado)
 
-WebUI.setText(findTestObject('Intermediario/Administracion de Montos/ModalMontoFinalInput'), '30,000,001')
+WebUI.setText(findTestObject('Intermediario/Administracion de Montos/ModalMontoFinalInput'), valorFinalModificado)
 
 WebUI.setText(findTestObject('Intermediario/Administracion de Montos/ModalJustificacionInput'), 'Prueba Automatizada')
 
 WebUI.click(findTestObject('Intermediario/Administracion de Montos/ModalModificarRangoButton'))
 
-WebUI.click(findTestObject('Intermediario/Administracion de Montos/EliminarMontoButton'))
+WebUI.click(findTestObject('Intermediario/Administracion de Montos/EliminarMontoButton', [('index') : count]))
 
 WebUI.setText(findTestObject('Intermediario/Administracion de Montos/ModalJustificacionBorrarInput'), 'Prueba Automatizada')
 

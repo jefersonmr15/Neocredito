@@ -95,19 +95,19 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     WebUI.setText(findTestObject('Cliente/Crear Solicitud/DestinoTextArea'), findTestData(DataFile).getValue(campo[14], 
             fila))
 
-    WebUI.waitForElementClickable(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 2]), 0)
+    WebUI.waitForElementClickable(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 1]), 0)
 
     'Botón guardar'
-    WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 2]))
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 1]))
 
     WebUI.verifyTextPresent('Su solicitud ha sido creada con el número', false)
 
-    WebUI.waitForElementClickable(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 3]), 0)
+    WebUI.waitForElementClickable(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 2]), 0)
 
     'Botón siguiente'
-    WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 3]))
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 2]))
 
-    for (def count = 1; count <= 9; count++) {
+    for (def count = 1; count <= 4; count++) {
         WebUI.click(findTestObject('Cliente/Crear Solicitud/SubirArchivoButton', [('index') : count]))
 
         switch (count) {
@@ -129,7 +129,7 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     }
     
     'Botón Crear solicitud'
-    WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 2]))
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 1]))
 
     GlobalVariable.Solicitud = WebUI.getAttribute(findTestObject('Cliente/Crear Solicitud/NoSolicitudLabel'), 'innerText')
 

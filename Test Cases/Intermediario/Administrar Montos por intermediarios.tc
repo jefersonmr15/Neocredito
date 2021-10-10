@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>97c3919d-9a80-4f30-b551-bdc1e8b35799</testCaseGuid>
+   <variable>
+      <defaultValue>'1,000,000,001'</defaultValue>
+      <description></description>
+      <id>fbd83594-8760-47bb-bb84-0c4eed84bc46</id>
+      <masked>false</masked>
+      <name>valorInicial</name>
+   </variable>
+   <variable>
+      <defaultValue>'1,000,000,002'</defaultValue>
+      <description></description>
+      <id>530ad267-e362-4d53-95f7-69223f7e6f16</id>
+      <masked>false</masked>
+      <name>ValorFinal</name>
+   </variable>
+   <variable>
+      <defaultValue>'1,000,000,003'</defaultValue>
+      <description></description>
+      <id>1fdacb6f-a7f4-426a-a809-8d8a165157ab</id>
+      <masked>false</masked>
+      <name>valorInicialModificado</name>
+   </variable>
+   <variable>
+      <defaultValue>'1,000,000,004'</defaultValue>
+      <description></description>
+      <id>83c599e5-9aac-480f-89f3-b250c96eb3a3</id>
+      <masked>false</masked>
+      <name>valorFinalModificado</name>
+   </variable>
 </TestCaseEntity>

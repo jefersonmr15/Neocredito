@@ -37,17 +37,17 @@ WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/RegistrateButton'))
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/PersonaNaturalLink'))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/PrimerNombreInput'), findTestData(DataFile).getValue(
-        campo[0], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/PrimerNombreInput'), findTestData(DataFile).getValue(campo[
+        0], fila))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/SegundoNombreInput'), findTestData(DataFile).getValue(
-        campo[1], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/SegundoNombreInput'), findTestData(DataFile).getValue(campo[
+        1], fila))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/PrimerApellidoInput'), findTestData(DataFile).getValue(
-        campo[2], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/PrimerApellidoInput'), findTestData(DataFile).getValue(campo[
+        2], fila))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/SegundoApellidoInput'), findTestData(DataFile).getValue(
-        campo[3], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/SegundoApellidoInput'), findTestData(DataFile).getValue(campo[
+        3], fila))
 
 WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/GeneroSelect'), findTestData(DataFile).getValue(
         campo[4], fila), true)
@@ -55,11 +55,11 @@ WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/GeneroS
 WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/TipodocumentoSelect'), findTestData(DataFile).getValue(
         campo[5], fila), true)
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NumeroDocumentoInput'), findTestData(DataFile).getValue(
-        campo[6], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NumeroDocumentoInput'), findTestData(DataFile).getValue(campo[
+        6], fila))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NumeroCelularInput'), findTestData(DataFile).getValue(
-        campo[7], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NumeroCelularInput'), findTestData(DataFile).getValue(campo[
+        7], fila))
 
 WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/ActividadEconomicaSelect'), findTestData(DataFile).getValue(
         campo[8], fila), true)
@@ -67,14 +67,14 @@ WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/Activid
 WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/AnoVentasSelect'), findTestData(DataFile).getValue(
         campo[9], fila), true)
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NivelVentasInput'), findTestData(DataFile).getValue(
-        campo[10], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NivelVentasInput'), findTestData(DataFile).getValue(campo[10], 
+        fila))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/CorreoElectronicoInput'), findTestData(DataFile).getValue(
-        campo[11], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/CorreoElectronicoInput'), findTestData(DataFile).getValue(campo[
+        11], fila))
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/ContrasenaInput'), findTestData(DataFile).getValue(
-        campo[12], fila))
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/ContrasenaInput'), findTestData(DataFile).getValue(campo[12], 
+        fila))
 
 WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarContrasenaInput'), findTestData(DataFile).getValue(
         campo[12], fila))
@@ -109,12 +109,12 @@ WebUI.switchToWindowIndex(currentWindow + 1)
 
 WebUI.navigateToUrl('https://yopmail.com/es/')
 
-WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/CorreoYopmailInput'), 'correo2')
+WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/CorreoYopmailInput'), findTestData(DataFile).getValue(campo[
+        11], fila))
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/CrearCorreoButton'))
 
 //WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/PrimerCorreoLabel'))
-
 Code = WebUI.getAttribute(findTestObject('Cliente/RegistroPersonaNatural/CodigoCorreoLabel'), 'innerText')
 
 WebUI.switchToWindowIndex(currentWindow)

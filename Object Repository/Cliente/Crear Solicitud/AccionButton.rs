@@ -10,12 +10,12 @@
          <value>//button[@type='submit']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.mr-3</value>
+         <key>BASIC</key>
+         <value>(//button[@class='btn btn-primary hvr-shrink'])[${index}]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class='buttons']/button[${index}]</value>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.mr-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='buttons']/button[${index}]</value>
+      <value>(//button[@class='btn btn-primary hvr-shrink'])[${index}]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

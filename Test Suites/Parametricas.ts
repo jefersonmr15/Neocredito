@@ -22,5 +22,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intermediario/Administrar Montos por intermediarios</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbd83594-8760-47bb-bb84-0c4eed84bc46</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>530ad267-e362-4d53-95f7-69223f7e6f16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fdacb6f-a7f4-426a-a809-8d8a165157ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83c599e5-9aac-480f-89f3-b250c96eb3a3</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

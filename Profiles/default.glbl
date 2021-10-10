@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['SEÑOR EMPRESARIO, ANTES DE DAR INICIO AL DILIGENCIAMIENTO, RECUERDE QUE DEBE CONTAR CON LA SIGUIENTE DOCUMENTACIÓN:']</initValue>
+      <initValue>['SEÑOR EMPRESARIO, ANTES DE DAR INICIO AL DILIGENCIAMIENTO, RECUERDE QUE DEBE CONTAR CON LA SIGUIENTE DOCUMENTACIÓN: VER DOCUMENTO']</initValue>
       <name>Mensaje</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>X - Y</description>
-      <initValue>[1920, 1080]</initValue>
+      <initValue>[1366, 768]</initValue>
       <name>resolution</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

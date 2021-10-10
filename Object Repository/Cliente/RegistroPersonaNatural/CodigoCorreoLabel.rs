@@ -6,12 +6,12 @@
    <elementGuidId>702f2227-ab34-4845-9b34-0c4e42417baf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id='mail']//strong</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id='mail']//h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id='mail']//span)[2][count(. | //*[@ref_element = 'Object Repository/Cliente/RegistroPersonaNatural/CuerpoCorreoLabel']) = count(//*[@ref_element = 'Object Repository/Cliente/RegistroPersonaNatural/CuerpoCorreoLabel'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='mail']//strong</value>
+      <value>(//*[@id='mail']//span)[2]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

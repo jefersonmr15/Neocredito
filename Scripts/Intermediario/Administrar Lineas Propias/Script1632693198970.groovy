@@ -44,10 +44,6 @@ WebUI.click(findTestObject('Object Repository/Intermediario/Parametrizacion Line
 
 WebUI.setText(findTestObject('Intermediario/Parametrizacion Linea/NombreLineaInput'), 'linea del alto')
 
-WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 2]))
-
-WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [('index') : '2']))
-
 WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 3]))
 
 WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [('index') : '2']))
@@ -58,7 +54,7 @@ WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [
 
 WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 5]))
 
-WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [('index') : '10']))
+WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [('index') : '2']))
 
 WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 6]))
 
@@ -66,9 +62,13 @@ WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [
 
 WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 7]))
 
+WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [('index') : '10']))
+
+WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 8]))
+
 WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/OptionSelect', [('index') : '1']))
 
-WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 7]))
+//WebUI.click(findTestObject('Intermediario/Parametrizacion Linea/ListasSelect', [('index') : 9]))
 
 WebUI.setText(findTestObject('Intermediario/Parametrizacion Linea/ValorTasaInput'), '12')
 
