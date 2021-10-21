@@ -22,10 +22,10 @@ import java.awt.Toolkit as Toolkit
 import java.awt.event.KeyEvent as KeyEvent
 import file.uploadFile as uploadFile
 
-sql = Sql.newInstance((((('jdbc:oracle:thin:@' + (GlobalVariable.ConexionDB[0])) + ':') + (GlobalVariable.ConexionDB[1])) + 
+/*sql = Sql.newInstance((((('jdbc:oracle:thin:@' + (GlobalVariable.ConexionDB[0])) + ':') + (GlobalVariable.ConexionDB[1])) + 
     ':') + (GlobalVariable.ConexionDB[2]), GlobalVariable.ConexionDB[3], GlobalVariable.ConexionDB[4], GlobalVariable.ConexionDB[
     5])
-
+*/
 WebUI.openBrowser(GlobalVariable.home)
 
 WebUI.navigateToUrl(GlobalVariable.home)

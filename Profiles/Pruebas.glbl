@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Pruebas</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://172.31.10.14:8080/ngneocredito/#/home'</initValue>
+      <initValue>'https://pruebasbe.bancoldex.com:9003/ngneocredito/#/home'</initValue>
       <name>home</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['http://172.31.10.14:8080/ngneocredito/#/bancoldex/login', 'http://172.31.10.14:8080/ngneocredito/#/intermediario/login', 'http://172.31.10.14:8080/ngneocredito/#/microempresario/login']</initValue>
+      <initValue>['https://pruebasbe.bancoldex.com:9003/ngneocredito/#/bancoldex/login', 'https://pruebasbe.bancoldex.com:9003/ngneocredito/#/intermediario/login', 'https://pruebasbe.bancoldex.com:9003/ngneocredito/#/microempresario/login']</initValue>
       <name>login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['2', '74335641', 'Bancoldex1*']</initValue>
+      <initValue>['2', '79250250', 'Bancoldex1*']</initValue>
       <name>userCliente</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
