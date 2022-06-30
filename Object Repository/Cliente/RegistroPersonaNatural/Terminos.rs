@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Terminos</name>
+   <tag></tag>
+   <elementGuidId>8a8ae328-f9b9-4ce9-9816-c80cc5ec8108</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@class='form-check']/input)[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@class='form-check']/input)[2]</value>
+      <webElementGuid>508553db-9b2f-48fe-b2f1-05e3a5af9d95</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

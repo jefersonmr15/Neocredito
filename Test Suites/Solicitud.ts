@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a3cc94ed-8496-4536-af85-794ecfe67710</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Cliente/Crear Solicitud</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -6,12 +6,16 @@
    <elementGuidId>f28512e8-b0fd-4336-acdd-c642451ba286</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Agregar cargos y/o garantías' or . = 'Agregar cargos y/o garantías')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.col-12.col-sm-6 > button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Agregar cargos y/o garantias</value>
+      <value>Agregar cargos y/o garantías</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

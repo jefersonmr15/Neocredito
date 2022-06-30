@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.sql.Sql as Sql
 
-sql = Sql.newInstance((((('jdbc:oracle:thin:@' + (GlobalVariable.ConexionDB[0])) + ':') + (GlobalVariable.ConexionDB[1])) + 
+/*sql = Sql.newInstance((((('jdbc:oracle:thin:@' + (GlobalVariable.ConexionDB[0])) + ':') + (GlobalVariable.ConexionDB[1])) + 
     ':') + (GlobalVariable.ConexionDB[2]), GlobalVariable.ConexionDB[3], GlobalVariable.ConexionDB[4], GlobalVariable.ConexionDB[
     5])
-
+*/
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/intermediario/login')
+WebUI.navigateToUrl(GlobalVariable.login[1])
 
 WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
@@ -63,29 +63,31 @@ WebUI.click(findTestObject('Intermediario/CrearOferta/FiltrarButton'))
 
 WebUI.click(findTestObject('Intermediario/CrearOferta/AccionAprobarButton'))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccione una opcion']))
+def select='Seleccione una opción'
+
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccióne una opcion']))
 
 WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : 'Propios']))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccione una opcion']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : select]))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : 'Capital de Trabajo']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : 'Linea de Credito']))
 
 WebUI.setText(findTestObject('Intermediario/CrearOferta/MontoInput'), '2,000.000')
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccione una opcion']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : select]))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : '12']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : '1']))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccione una opcion']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : select]))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : '10.1']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : '1.12']))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccione una opcion']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : select]))
 
 WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : 'Mensual']))
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : '0']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccióne una opcion']))
 
 WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : '1']))
 
@@ -93,7 +95,7 @@ WebUI.setText(findTestObject('Intermediario/CrearOferta/NombreCargoInput'), 'pro
 
 WebUI.setText(findTestObject('Intermediario/CrearOferta/ValorInput'), '50.000')
 
-WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : 'Seleccione una opcion']))
+WebUI.click(findTestObject('Intermediario/CrearOferta/ListasButton', [('text') : select]))
 
 WebUI.click(findTestObject('Intermediario/CrearOferta/ListasValueLi', [('text') : 'CARGO ÚNICO']))
 

@@ -61,6 +61,17 @@ WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NumeroDocumentoInpu
 WebUI.setText(findTestObject('Cliente/RegistroPersonaNatural/NumeroCelularInput'), findTestData(DataFile).getValue(campo[
         7], fila))
 
+switch (findTestData(DataFile).getValue(campo[13], fila)) {
+    case 'SI':
+        WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/Rut', [('index') : '1']))
+
+        break
+    case 'NO':
+        WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/Rut', [('index') : '2']))
+
+        break
+}
+
 WebUI.selectOptionByValue(findTestObject('Cliente/RegistroPersonaNatural/ActividadEconomicaSelect'), findTestData(DataFile).getValue(
         campo[8], fila), true)
 
@@ -96,6 +107,10 @@ robot.keyPress(KeyEvent.VK_DOWN)
 WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarContrasenaInput'), Keys.chord(Keys.TAB))
 
 WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/DatosPersonalesRadio'), Keys.chord(Keys.SPACE))
+
+WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/ConfirmarContrasenaInput'), Keys.chord(Keys.TAB, Keys.TAB))
+
+WebUI.sendKeys(findTestObject('Cliente/RegistroPersonaNatural/Terminos'), Keys.chord(Keys.SPACE))
 
 WebUI.click(findTestObject('Cliente/RegistroPersonaNatural/FinalizarRegistroButton'))
 

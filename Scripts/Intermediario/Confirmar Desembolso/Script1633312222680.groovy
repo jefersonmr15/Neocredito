@@ -19,16 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/intermediario/login')
+WebUI.navigateToUrl(GlobalVariable.login[1])
 
 WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/TipoDocumentoSelect'), GlobalVariable.userIntermediario[
     0], true)
 
-WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/NumerodocumentoInput'), GlobalVariable.userIntermediario[1])
+WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/NumerodocumentoInput'), GlobalVariable.userIntermediario[
+    1])
 
-WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/ContrasenaInput'), GlobalVariable.userIntermediario[2])
+WebUI.setText(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/ContrasenaInput'), GlobalVariable.userIntermediario[
+    2])
 
 WebUI.click(findTestObject('Object Repository/Intermediario/Aprobar Desembolso/IniciarSesionFormularioButton'))
 

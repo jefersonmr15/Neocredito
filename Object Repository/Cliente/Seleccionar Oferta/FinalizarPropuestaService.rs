@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://172.31.10.18:8005/neocredito/tareas/servicios/validarPropuesta/${solicitud}</restUrl>
+   <restUrl>https://pruebasbe.bancoldex.com:9003/ngneocredito/tareas/servicios/validarPropuesta/${solicitud}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

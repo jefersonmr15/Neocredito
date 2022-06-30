@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>df0b770e-8e51-4bc5-bf8d-ca683052296e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ea833a7-a843-4c01-9715-b9fb5b22610c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4364692-2431-4f56-95ca-a25e8dd9bfd3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f70a2ffb-d0f2-40bf-a454-04268249eb25</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
@@ -13,7 +31,7 @@
       <name>fila</name>
    </variable>
    <variable>
-      <defaultValue>['Primer Nombre', 'Segundo Nombre', 'Primer Apellido', 'Segundo Apellido', 'Genero', 'Tipo Documento', 'Numero Documento', 'Numero Celular', 'Actividad Economica', 'Ano Ventas', 'Nivel Ventas', 'Correo Electronico', 'Contraseña']</defaultValue>
+      <defaultValue>['Primer Nombre', 'Segundo Nombre', 'Primer Apellido', 'Segundo Apellido', 'Genero', 'Tipo Documento', 'Numero Documento', 'Numero Celular', 'Actividad Economica', 'Ano Ventas', 'Nivel Ventas', 'Correo Electronico', 'Contraseña', 'Rut']</defaultValue>
       <description></description>
       <id>c4364692-2431-4f56-95ca-a25e8dd9bfd3</id>
       <masked>false</masked>

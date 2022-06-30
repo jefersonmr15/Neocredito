@@ -6,17 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://pruebasbe.bancoldex.com:9003/ngneocredito/#/home'</initValue>
+      <initValue>'https://pruebasbe.bancoldex.com:9004/neocredito/#/home'</initValue>
       <name>home</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['https://pruebasbe.bancoldex.com:9003/ngneocredito/#/bancoldex/login', 'https://pruebasbe.bancoldex.com:9003/ngneocredito/#/intermediario/login', 'https://pruebasbe.bancoldex.com:9003/ngneocredito/#/microempresario/login']</initValue>
+      <initValue>['https://pruebasbe.bancoldex.com:9004/neocreditobx/#/login', 'https://pruebasbe.bancoldex.com:9004/neocredito/#/intermediario/login', 'https://pruebasbe.bancoldex.com:9004/neocredito/#/microempresario/login']</initValue>
       <name>login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://172.31.10.14:8080/'</initValue>
+      <initValue>'http://190.85.159.22:9004/'</initValue>
       <name>ip</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'20210000660'</initValue>
+      <initValue>'20210000541'</initValue>
       <name>Solicitud</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['PEP0000', 'Bogota*8080']</initValue>
+      <initValue>['PEP0000', 'Factorit*7070']</initValue>
       <name>userBancoldex</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

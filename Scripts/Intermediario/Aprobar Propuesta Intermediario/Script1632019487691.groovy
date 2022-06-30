@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/home')
+WebUI.navigateToUrl(GlobalVariable.home)
 
 WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 

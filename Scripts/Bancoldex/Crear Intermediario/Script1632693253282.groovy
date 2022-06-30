@@ -35,7 +35,7 @@ if (nit != null) {
     WebUI.closeBrowser()
 }
 
-WebUI.navigateToUrl('http://172.31.10.14:8080/ngneocredito/#/bancoldex/login')
+WebUI.navigateToUrl(GlobalVariable.login[0])
 
 WebUI.setViewPortSize(GlobalVariable.resolution[0], GlobalVariable.resolution[1])
 
@@ -90,6 +90,8 @@ WebUI.setText(findTestObject('Bancoldex/Crear Intermediario/CelularInput'), find
 WebUI.click(findTestObject('Bancoldex/Crear Intermediario/AceptarButton'))
 
 WebUI.verifyElementText(findTestObject('Bancoldex/Crear Intermediario/MensajeExitosoLabel'), 'Exito registro de Intermediario y Administrador')
+
 WebUI.delay(5)
+
 WebUI.click(findTestObject('Bancoldex/Crear Intermediario/HomeLink'))
 

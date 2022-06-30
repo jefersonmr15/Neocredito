@@ -95,6 +95,13 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     WebUI.setText(findTestObject('Cliente/Crear Solicitud/DestinoTextArea'), findTestData(DataFile).getValue(campo[14], 
             fila))
 
+    WebUI.sendKeys(findTestObject('Cliente/Crear Solicitud/DestinoTextArea'), Keys.chord(Keys.TAB, Keys.SPACE))
+
+    /*Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_SPACE)
+
+    robot.keyRelease(KeyEvent.VK_SPACE)*/
     WebUI.waitForElementClickable(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 1]), 0)
 
     'Botón guardar'
@@ -107,7 +114,7 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
     'Botón siguiente'
     WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 2]))
 
-    for (def count = 1; count <= 4; count++) {
+    for (def count = 1; count <= 9; count++) {
         WebUI.click(findTestObject('Cliente/Crear Solicitud/SubirArchivoButton', [('index') : count]))
 
         switch (count) {
@@ -115,8 +122,8 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
                 CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Datos.xlsx')
 
                 break
-            case 6:
-                CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+            case 9:
+                CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Video.mp4')
 
                 break
             default:
@@ -128,11 +135,36 @@ for (fila = 1; fila <= findTestData(DataFile).getRowNumbers(); fila++) {
         WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
     }
     
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/FotosButton', [('index') : 29]))
+
+    CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+
+    WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/FotosButton', [('index') : 31]))
+
+    CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+
+    WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/FotosButton', [('index') : 33]))
+
+    CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+
+    WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Cliente/Crear Solicitud/FotosButton', [('index') : 35]))
+
+    CustomKeywords.'file.uploadFile.upload'('\\Data Files\\Imagen.jpg')
+
+    WebUI.waitForPageLoad(1, FailureHandling.STOP_ON_FAILURE)
+
     'Botón Crear solicitud'
     WebUI.click(findTestObject('Cliente/Crear Solicitud/AccionButton', [('index') : 1]))
 
     GlobalVariable.Solicitud = WebUI.getAttribute(findTestObject('Cliente/Crear Solicitud/NoSolicitudLabel'), 'innerText')
 
     WebUI.click(findTestObject('Cliente/Crear Solicitud/FinalizarButton'))
+
 }
 

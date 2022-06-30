@@ -6,16 +6,16 @@
    <elementGuidId>5f447f62-8bf5-427f-b486-084898a29d30</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='landing_aceptacion-usuario']/div/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-primary.mr-3</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '#/home' and (text() = 'Ir a la página principal' or . = 'Ir a la página principal')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href='#/home']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>4b881d1e-7f71-41a0-9965-5525ecdceab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +34,7 @@
       <name>routerlink</name>
       <type>Main</type>
       <value>/home</value>
+      <webElementGuid>e1396d0a-2d67-492e-866c-7416a1279d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>180cc1a1-16f0-42a8-ae2a-c8e540aac8e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary mr-3</value>
+      <webElementGuid>0d038599-a84c-4c13-ba19-0d9109528351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +58,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#/home</value>
+      <webElementGuid>d9bcf796-8d7c-4cdf-af0e-6142e6f80b5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ir a la página principal</value>
+      <webElementGuid>ce7c22eb-d858-47d7-b36b-41740bb1fa2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;landing_aceptacion-usuario&quot;)/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-12 col-lg-6&quot;]/a[@class=&quot;btn btn-primary mr-3&quot;]</value>
+      <webElementGuid>3cc52aee-f28b-4b97-9002-c733686fd9de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='landing_aceptacion-usuario']/div/div/a</value>
+      <webElementGuid>f944cdb8-9d26-40c2-9f3a-aa8853d6b905</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ir a la página principal')]</value>
+      <webElementGuid>ed294152-1719-40d6-800d-e841dc45412d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='¡Felicitaciones!'])[1]/following::a[1]</value>
+      <webElementGuid>0c05c2b2-2942-47a6-a3f9-b270559195ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ir al inicio de sesión'])[1]/preceding::a[1]</value>
+      <webElementGuid>0528e1af-4acf-4dc3-a1b7-b0a4656b5677</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Neocredito'])[1]/preceding::a[2]</value>
+      <webElementGuid>356e9826-d791-451a-9c49-e370d002ee72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ir a la página principal']/parent::*</value>
+      <webElementGuid>502bb125-5a77-49ab-8e82-a16e3974d19e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +130,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#/home')]</value>
+      <webElementGuid>212937bd-b762-4cc0-ade0-1e719a97db4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,5 +138,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
+      <webElementGuid>e23e3172-de4a-4cac-9487-77c763aaec03</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
